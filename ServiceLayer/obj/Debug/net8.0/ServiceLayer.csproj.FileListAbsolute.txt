@@ -1,0 +1,30 @@
+C:\Users\vmontagna\Desktop\esercizi stage\esercizio_Bike_Store\ServiceLayer\bin\Debug\net8.0\ServiceLayer.deps.json
+C:\Users\vmontagna\Desktop\esercizi stage\esercizio_Bike_Store\ServiceLayer\bin\Debug\net8.0\ServiceLayer.dll
+C:\Users\vmontagna\Desktop\esercizi stage\esercizio_Bike_Store\ServiceLayer\bin\Debug\net8.0\ServiceLayer.pdb
+C:\Users\vmontagna\Desktop\esercizi stage\esercizio_Bike_Store\ServiceLayer\bin\Debug\net8.0\DBLayer.dll
+C:\Users\vmontagna\Desktop\esercizi stage\esercizio_Bike_Store\ServiceLayer\bin\Debug\net8.0\DBLayer.pdb
+C:\Users\vmontagna\Desktop\esercizi stage\esercizio_Bike_Store\ServiceLayer\obj\Debug\net8.0\ServiceLayer.csproj.AssemblyReference.cache
+C:\Users\vmontagna\Desktop\esercizi stage\esercizio_Bike_Store\ServiceLayer\obj\Debug\net8.0\ServiceLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vmontagna\Desktop\esercizi stage\esercizio_Bike_Store\ServiceLayer\obj\Debug\net8.0\ServiceLayer.AssemblyInfoInputs.cache
+C:\Users\vmontagna\Desktop\esercizi stage\esercizio_Bike_Store\ServiceLayer\obj\Debug\net8.0\ServiceLayer.AssemblyInfo.cs
+C:\Users\vmontagna\Desktop\esercizi stage\esercizio_Bike_Store\ServiceLayer\obj\Debug\net8.0\ServiceLayer.csproj.CoreCompileInputs.cache
+C:\Users\vmontagna\Desktop\esercizi stage\esercizio_Bike_Store\ServiceLayer\obj\Debug\net8.0\ServiceL.3037F684.Up2Date
+C:\Users\vmontagna\Desktop\esercizi stage\esercizio_Bike_Store\ServiceLayer\obj\Debug\net8.0\ServiceLayer.dll
+C:\Users\vmontagna\Desktop\esercizi stage\esercizio_Bike_Store\ServiceLayer\obj\Debug\net8.0\refint\ServiceLayer.dll
+C:\Users\vmontagna\Desktop\esercizi stage\esercizio_Bike_Store\ServiceLayer\obj\Debug\net8.0\ServiceLayer.pdb
+C:\Users\vmontagna\Desktop\esercizi stage\esercizio_Bike_Store\ServiceLayer\obj\Debug\net8.0\ref\ServiceLayer.dll
+C:\Users\vmontagna\Desktop\esercizi stage\Esercizio BarberShop\ServiceLayer\bin\Debug\net8.0\ServiceLayer.deps.json
+C:\Users\vmontagna\Desktop\esercizi stage\Esercizio BarberShop\ServiceLayer\bin\Debug\net8.0\ServiceLayer.dll
+C:\Users\vmontagna\Desktop\esercizi stage\Esercizio BarberShop\ServiceLayer\bin\Debug\net8.0\ServiceLayer.pdb
+C:\Users\vmontagna\Desktop\esercizi stage\Esercizio BarberShop\ServiceLayer\bin\Debug\net8.0\DBLayer.dll
+C:\Users\vmontagna\Desktop\esercizi stage\Esercizio BarberShop\ServiceLayer\bin\Debug\net8.0\DBLayer.pdb
+C:\Users\vmontagna\Desktop\esercizi stage\Esercizio BarberShop\ServiceLayer\obj\Debug\net8.0\ServiceLayer.csproj.AssemblyReference.cache
+C:\Users\vmontagna\Desktop\esercizi stage\Esercizio BarberShop\ServiceLayer\obj\Debug\net8.0\ServiceLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vmontagna\Desktop\esercizi stage\Esercizio BarberShop\ServiceLayer\obj\Debug\net8.0\ServiceLayer.AssemblyInfoInputs.cache
+C:\Users\vmontagna\Desktop\esercizi stage\Esercizio BarberShop\ServiceLayer\obj\Debug\net8.0\ServiceLayer.AssemblyInfo.cs
+C:\Users\vmontagna\Desktop\esercizi stage\Esercizio BarberShop\ServiceLayer\obj\Debug\net8.0\ServiceLayer.csproj.CoreCompileInputs.cache
+C:\Users\vmontagna\Desktop\esercizi stage\Esercizio BarberShop\ServiceLayer\obj\Debug\net8.0\ServiceL.3037F684.Up2Date
+C:\Users\vmontagna\Desktop\esercizi stage\Esercizio BarberShop\ServiceLayer\obj\Debug\net8.0\ServiceLayer.dll
+C:\Users\vmontagna\Desktop\esercizi stage\Esercizio BarberShop\ServiceLayer\obj\Debug\net8.0\refint\ServiceLayer.dll
+C:\Users\vmontagna\Desktop\esercizi stage\Esercizio BarberShop\ServiceLayer\obj\Debug\net8.0\ServiceLayer.pdb
+C:\Users\vmontagna\Desktop\esercizi stage\Esercizio BarberShop\ServiceLayer\obj\Debug\net8.0\ref\ServiceLayer.dll
