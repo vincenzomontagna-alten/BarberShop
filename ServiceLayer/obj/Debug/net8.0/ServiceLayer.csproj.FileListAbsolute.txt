@@ -28,3 +28,4 @@ C:\Users\vmontagna\Desktop\esercizi stage\Esercizio BarberShop\ServiceLayer\obj\
 C:\Users\vmontagna\Desktop\esercizi stage\Esercizio BarberShop\ServiceLayer\obj\Debug\net8.0\refint\ServiceLayer.dll
 C:\Users\vmontagna\Desktop\esercizi stage\Esercizio BarberShop\ServiceLayer\obj\Debug\net8.0\ServiceLayer.pdb
 C:\Users\vmontagna\Desktop\esercizi stage\Esercizio BarberShop\ServiceLayer\obj\Debug\net8.0\ref\ServiceLayer.dll
+C:\Users\vmontagna\Desktop\esercizi stage\Esercizio BarberShop\ServiceLayer\obj\Debug\net8.0\ServiceLayer.sourcelink.json

@@ -11,6 +11,9 @@ using static System.Net.Mime.MediaTypeNames;
 using esercizio_barber_shop;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal;
+using ServiceLayer;
+using DBLayer.Interfaces;
+using DBLayer.Repositories;
 
 namespace esercizio_barber_shop
 
@@ -43,6 +46,8 @@ namespace esercizio_barber_shop
         {
             services.AddSingleton<IConfiguration>(config);
             services.AddDbContext<Context>();
+            services.AddSingleton<ProductService>();
+            services.AddSingleton<IProductRepositoy, ProductRepository>();
                 
         }
     }

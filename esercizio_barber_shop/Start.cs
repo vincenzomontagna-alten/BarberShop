@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DBLayer.Data;
 using DBLayer.Models;
+using ServiceLayer;
 
 
 
@@ -15,15 +16,36 @@ namespace esercizio_barber_shop
     public class Start
     {
         private readonly Context _context;
-        public Start(Context context) 
+        private readonly ProductService _productService;
+        public Start(Context context, ProductService productService) 
         {
             _context = context;
+            _productService = productService;
+
         }
+
+
         public void Execute()
         {
-            foreach (var p in _context.Products)
+            while (true)
             {
-                Console.WriteLine(p.Id + " " + p.Nome + " " + p.Quantita + " " + p.QuantitaMinimaRichiesta );            
+                Console.WriteLine("Dimmi che cosa vuoi fare:");
+                Console.WriteLine("1 - Gestisci i prodotti del magazzino");
+
+                string choose = Console.ReadLine();
+
+                switch (choose)
+                {
+                    case "1":
+                        _productService.ManageProducts();
+                        break;
+                    default:
+                        Console.WriteLine("Scelta non valida");
+                        break;
+
+
+                }
+
             }
         }
     }

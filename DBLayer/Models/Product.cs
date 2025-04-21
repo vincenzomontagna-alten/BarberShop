@@ -16,5 +16,12 @@ namespace DBLayer.Models
 
             public int? QuantitaMinimaRichiesta { get; set; }
 
+        public Product() { }
+        public Product(string name, int quantity, int minimumQuantityRequired)
+        {
+            Nome = name;
+            Quantita = quantity;
+            QuantitaMinimaRichiesta = minimumQuantityRequired; 
+        }
     }
 }

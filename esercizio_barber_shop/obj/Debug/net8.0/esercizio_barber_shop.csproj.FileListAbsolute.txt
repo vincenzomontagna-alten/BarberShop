@@ -96,3 +96,4 @@ C:\Users\vmontagna\Desktop\esercizi stage\Esercizio BarberShop\esercizio_barber_
 C:\Users\vmontagna\Desktop\esercizi stage\Esercizio BarberShop\esercizio_barber_shop\obj\Debug\net8.0\esercizio_barber_shop.pdb
 C:\Users\vmontagna\Desktop\esercizi stage\Esercizio BarberShop\esercizio_barber_shop\obj\Debug\net8.0\esercizio_barber_shop.genruntimeconfig.cache
 C:\Users\vmontagna\Desktop\esercizi stage\Esercizio BarberShop\esercizio_barber_shop\obj\Debug\net8.0\ref\esercizio_barber_shop.dll
+C:\Users\vmontagna\Desktop\esercizi stage\Esercizio BarberShop\esercizio_barber_shop\obj\Debug\net8.0\esercizio_barber_shop.sourcelink.json

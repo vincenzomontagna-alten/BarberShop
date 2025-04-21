@@ -22,3 +22,4 @@ C:\Users\vmontagna\Desktop\esercizi stage\Esercizio BarberShop\DBLayer\obj\Debug
 C:\Users\vmontagna\Desktop\esercizi stage\Esercizio BarberShop\DBLayer\obj\Debug\net8.0\refint\DBLayer.dll
 C:\Users\vmontagna\Desktop\esercizi stage\Esercizio BarberShop\DBLayer\obj\Debug\net8.0\DBLayer.pdb
 C:\Users\vmontagna\Desktop\esercizi stage\Esercizio BarberShop\DBLayer\obj\Debug\net8.0\ref\DBLayer.dll
+C:\Users\vmontagna\Desktop\esercizi stage\Esercizio BarberShop\DBLayer\obj\Debug\net8.0\DBLayer.sourcelink.json
