@@ -16,6 +16,8 @@ namespace DBLayer.Models
 
             public int? QuantitaMinimaRichiesta { get; set; }
 
+            public ICollection<ProductPrenotation> ProductPrenotationCouples { get; set; } = new List<ProductPrenotation>();
+
         public Product() { }
         public Product(string name, int quantity, int minimumQuantityRequired)
         {

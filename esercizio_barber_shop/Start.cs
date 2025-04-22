@@ -27,6 +27,15 @@ namespace esercizio_barber_shop
 
         public void Execute()
         {
+            try
+            {
+                var productPrenotationCouples = _context.ProductPrenotationCouples.ToList();
+                Console.WriteLine("Caricamento riuscito.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Errore: {ex.Message}");
+            }
             while (true)
             {
                 Console.WriteLine("Dimmi che cosa vuoi fare:");
