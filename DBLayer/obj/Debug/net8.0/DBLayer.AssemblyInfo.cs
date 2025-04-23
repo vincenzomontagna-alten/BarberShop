@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DBLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14621b99e5fa4c7a34dd01b53a012ec8efc5a60f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0681d4d34a9375f9c0371f4f5766cbbdf13356e")]
 [assembly: System.Reflection.AssemblyProductAttribute("DBLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DBLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

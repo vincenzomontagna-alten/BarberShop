@@ -7,7 +7,7 @@ using DBLayer.Models;
 
 namespace DBLayer.Interfaces
 {
-    public interface IProductRepositoy
+    public interface IProductRepository
     {
         Product GetProduct(int id);
 

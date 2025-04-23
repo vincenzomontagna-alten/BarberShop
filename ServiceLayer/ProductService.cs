@@ -10,10 +10,10 @@ namespace ServiceLayer
 {
     public class ProductService
     {
-        private readonly IProductRepositoy _productRepositoy;
-        public ProductService(IProductRepositoy productRepository) 
+        private readonly IProductRepository _productRepository;
+        public ProductService(IProductRepository productRepository) 
         {
-            _productRepositoy = productRepository;
+            _productRepository = productRepository;
         }
 
         public void ManageProducts()
@@ -57,7 +57,7 @@ namespace ServiceLayer
         }
         public void ShowProductsToBuy()
         { 
-            var productsToBuy = _productRepositoy.GetProducts().Where(p => p.Quantita < p.QuantitaMinimaRichiesta);
+            var productsToBuy = _productRepository.GetProducts().Where(p => p.Quantita < p.QuantitaMinimaRichiesta);
             Console.WriteLine("I prodotti da comprare sono:");
             foreach (var product in productsToBuy)
             {
@@ -69,7 +69,7 @@ namespace ServiceLayer
             ShowListProducts();
             
             bool validInput = false;
-            var productsIds = _productRepositoy.GetProducts().Select(p => p.Id).ToList();
+            var productsIds = _productRepository.GetProducts().Select(p => p.Id).ToList();
             int productId = 0;
             while (!validInput)
             {
@@ -87,7 +87,7 @@ namespace ServiceLayer
                 
             }
 
-            return _productRepositoy.GetProduct(productId);
+            return _productRepository.GetProduct(productId);
         }
 
         public void UpdateProduct()
@@ -121,13 +121,14 @@ namespace ServiceLayer
             productToUpdate.Nome = productName;
             productToUpdate.Quantita = productQuantity;
             productToUpdate.QuantitaMinimaRichiesta =productQuantityMinimum;
-            _productRepositoy.UpdateProduct(productToUpdate);
+            _productRepository.UpdateProduct(productToUpdate);
+            Console.WriteLine("Il prodotto è stato modificato con successo");
         }
         public void DeleteProduct()
         {
             Console.WriteLine("Inserisci il prodotto da eliminare: ");
             Product productToDelete = ChooseProduct();
-            _productRepositoy.DeleteProduct(productToDelete.Id);
+            _productRepository.DeleteProduct(productToDelete.Id);
             Console.WriteLine("Prodotto eliminato con successo");
         }
         public void AddProduct()
@@ -157,13 +158,13 @@ namespace ServiceLayer
                 }
             }
             Product productToAdd = new Product(productName,productQuantity, productQuantityMinimum);
-            _productRepositoy.AddProduct(productToAdd);
+            _productRepository.AddProduct(productToAdd);
             Console.WriteLine("Il prodotto è stato aggiunto con successo");
         }
 
         public void ShowListProducts()
         { 
-            var products = _productRepositoy.GetProducts();
+            var products = _productRepository.GetProducts();
             foreach (var product in products)
             {
                 Console.WriteLine("Id: " + product.Id + " - Nome: " + product.Nome + " - Quantità: " + product.Quantita + " - Quantità minima richiesta: " + product.QuantitaMinimaRichiesta);

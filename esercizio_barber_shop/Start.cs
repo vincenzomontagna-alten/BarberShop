@@ -17,29 +17,25 @@ namespace esercizio_barber_shop
     {
         private readonly Context _context;
         private readonly ProductService _productService;
-        public Start(Context context, ProductService productService) 
+        private readonly ProductAdoService _productAdoService;
+        public Start(Context context, ProductService productService,ProductAdoService productAdoService) 
         {
             _context = context;
             _productService = productService;
+            _productAdoService = productAdoService;
 
         }
 
 
         public void Execute()
         {
-            try
-            {
-                var productPrenotationCouples = _context.ProductPrenotationCouples.ToList();
-                Console.WriteLine("Caricamento riuscito.");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Errore: {ex.Message}");
-            }
+
             while (true)
             {
                 Console.WriteLine("Dimmi che cosa vuoi fare:");
                 Console.WriteLine("1 - Gestisci i prodotti del magazzino");
+                Console.WriteLine("2 - Gestisci i prodotti del magazzino con ADO.NET");
+                
 
                 string choose = Console.ReadLine();
 
@@ -47,6 +43,9 @@ namespace esercizio_barber_shop
                 {
                     case "1":
                         _productService.ManageProducts();
+                        break;
+                    case "2":
+                        _productAdoService.ManageProducts();
                         break;
                     default:
                         Console.WriteLine("Scelta non valida");

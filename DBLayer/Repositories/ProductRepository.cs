@@ -9,7 +9,7 @@ using DBLayer.Models;
 
 namespace DBLayer.Repositories
 {
-    public class ProductRepository : IProductRepositoy
+    public class ProductRepository : IProductRepository
     {
         private readonly Context _context;
         public ProductRepository() { }

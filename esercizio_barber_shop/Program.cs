@@ -47,7 +47,9 @@ namespace esercizio_barber_shop
             services.AddSingleton<IConfiguration>(config);
             services.AddDbContext<Context>();
             services.AddSingleton<ProductService>();
-            services.AddSingleton<IProductRepositoy, ProductRepository>();
+            services.AddSingleton<IProductRepository, ProductRepository>();
+            services.AddSingleton<ProductAdoRepository>();
+            services.AddSingleton<ProductAdoService>();
                 
         }
     }
